@@ -1,0 +1,10 @@
+elasticsearch:
+  host: 127.0.0.1:9200
+  connect_timeout_millis: 10000
+
+server:
+  port: 8888
+
+logging:
+  level:
+    com.hydra.spider: info
